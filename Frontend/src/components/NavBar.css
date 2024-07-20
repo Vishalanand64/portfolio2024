@@ -1,0 +1,215 @@
+.navtop{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+    height: 50px; 
+    width: 100%;
+    align-self: flex-start;
+    box-sizing: border-box;
+ 
+}
+.left-container{
+    width: 50%;
+    display: flex;
+    margin-left: 50px;
+   
+}
+.logo{
+    
+    font-size: 1.8rem;
+    color:#39758f;
+}
+.right-container{
+    width: 50%;
+  
+    
+}
+.nav-items{
+    list-style: none;
+    display: flex;
+    gap: 5rem;
+}
+.navItem{
+    color: gray;
+}
+.active{
+    color:#39758f;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+    
+}
+.hamBurger{
+    width: 40px;
+    height: 30px;
+  
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+.line{
+    width: 35px;
+    height: 4px;
+    background-color: gray;
+    border-radius: 2px;
+}
+.hamBurger{
+    display: none;
+}
+
+.hamBurgerContainer{
+    width: 100%;
+    height: 80px;
+    box-shadow: 0 0 8px gray;
+    align-self: flex-end;
+    display: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    display: none;
+  
+}
+
+.hamburgerNavItem{
+    color: gray;
+  
+}
+
+
+@media  (max-width : 1050px){
+.logo{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 600;
+}
+.navbar{
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color:#39758f;
+    height: 90px;
+    width: 100%;
+
+}
+.hamBurger{
+    width: 50px;
+    height: 40px;
+ 
+}
+.hamBurgerContainer{
+    display: flex;
+}
+.line{
+    background-color: white;
+    width: 45px;
+    height: 5px;
+    
+}
+
+
+.right-container{
+    display: none;
+}
+.hamBurger{
+    display:flex;
+    margin-right: 50px;
+}
+}
+
+@media  (max-width : 650px){
+    .logo{
+        font-size: 1.4rem;
+        color: white;
+    }
+    .navbar{
+        justify-content: space-between;
+        background-color:#39758f;
+        height: 50px;
+        width: 100%;
+        padding: 0 20px;
+  
+       
+    
+    }
+    .line{
+        background-color: white;
+        width: 30px;
+        height: 3px;
+    }
+    
+   
+    .hamBurger{
+        display:flex;
+        
+        width: 30px;
+        height: 30px;
+        
+       
+    }
+    .left-container{
+        margin-left: 30px;
+    }
+    .hamBurgerContainer{
+        height: 60px;
+        display: flex;
+       width: 100%;
+    }
+    .hamburgerNavItem{
+        font-weight: 500;
+        font-size: 15px;
+        font: 500;
+    }
+    }
+
+    @media  (max-width : 650px){
+    .logo{
+        font-size: 1.4rem;
+        color: white;
+    }
+    .navbar{
+        justify-content: space-between;
+        background-color:#39758f;
+        height: 50px;
+        width: 100%;
+        padding: 0 20px;
+  
+       
+    
+    }
+    .line{
+        background-color: white;
+        width: 30px;
+        height: 3px;
+    }
+    
+   
+    .hamBurger{
+        display:flex;
+        
+        width: 30px;
+        height: 30px;
+        
+       
+    }
+    .left-container{
+        margin-left: 30px;
+    }
+    .hamBurgerContainer{
+        height: 60px;
+        display: flex;
+       width: 100%;
+    }
+    .hamburgerNavItem{
+        font-weight: 500;
+        font-size: 15px;
+        font: 500;
+    }
+    }

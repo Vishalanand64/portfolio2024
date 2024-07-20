@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "react-animated-cursor": "^2.11.2",
+    "react-hot-toast": "^2.4.1",
+    "react-router-dom": "^6.24.1",
+    "three": "^0.166.1"
+  }
+}

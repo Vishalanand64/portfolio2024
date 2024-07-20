@@ -1,0 +1,103 @@
+.card{
+    width: 400px;
+    height: 180px;
+    background-color: #030A22;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.dot-container{
+    height: 35px;
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
+
+}
+.left{
+    width: 70px;
+    height: 100%;
+  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.dot{
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50%;
+}
+.right{
+    width: 60px;
+    height: 100%;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.one{
+    background-color: red;
+}
+.two{
+    background-color: rgb(255, 255, 81);
+}
+.three{
+    background-color: rgb(161, 250, 29);
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px ;
+    font-family: monospace;
+    font-size: 1rem;
+    color: #62F75F;
+
+    
+}
+.role {
+    padding:  0;
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: white;
+    overflow: hidden; 
+    white-space: nowrap; 
+    
+    animation: typing 3s steps(40, end) infinite, blink-caret 0.75s step-end infinite;
+    width: auto; 
+    display: inline-block;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 65%; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: white; }
+}
+
+@media(max-width:500px){
+    .card{
+        width: 350px;
+        height: 180px;
+    }
+}
+
+@media(max-width:400px){
+    .card{
+        width: 300px;
+        height: 180px;
+    }
+}
+@media(max-width:350px){
+    .card{
+        width: 250px;
+        height: 180px;
+    }
+}
+

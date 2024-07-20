@@ -1,0 +1,15 @@
+.mainContainer{
+  width: 100vw;
+  height: 100vh;
+  background-color: blue;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  width: 100vw;
+  height: auto;
+  align-items: center;
+  
+}
+
