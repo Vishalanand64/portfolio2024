@@ -1,8 +1,28 @@
 {
   "dependencies": {
+    "framer-motion": "^11.3.19",
     "react-animated-cursor": "^2.11.2",
     "react-hot-toast": "^2.4.1",
     "react-router-dom": "^6.24.1",
     "three": "^0.166.1"
-  }
+  },
+  "name": "portfolio2024",
+  "description": "\"# portfolio2024\"",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vishalanand64/portfolio2024.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vishalanand64/portfolio2024/issues"
+  },
+  "homepage": "https://github.com/Vishalanand64/portfolio2024#readme"
 }

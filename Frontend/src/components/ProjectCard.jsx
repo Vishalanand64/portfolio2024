@@ -1,7 +1,7 @@
-import React from 'react';
+
 import './projectCard.css';
 import { Link } from 'react-router-dom';
-import toast from 'react-hot-toast';
+
 
 const ProjectCard = (props) => {
 

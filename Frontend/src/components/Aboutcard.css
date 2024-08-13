@@ -4,6 +4,12 @@
     background-color: #030A22;
     border-radius: 10px;
     margin: 20px 0;
+    transition:  all 0.5s;
+
+    
+}
+.card:hover{
+    transform: scale(1.1);
 }
 .dot-container{
     height: 35px;

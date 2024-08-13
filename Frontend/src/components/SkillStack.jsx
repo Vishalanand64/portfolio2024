@@ -1,10 +1,9 @@
-import React from "react";
+
 import "./SkillStack.css";
 import js from "../assets/js.png";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
-import { Link } from "react-router-dom";
-import cross from '../assets/cross.png'
+
 
 import react from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
@@ -21,13 +20,12 @@ import postman from "../assets/postman.png";
 const SkillStack = () => {
   return (
     <div className="skill-page">
-      <div className="skill-toast">
-        <div className="toast">
-          <div className="toast-circle">!</div>
-          <p>Skill Stack</p>
-          <Link to='/'><img className="cross" src={cross} alt="" /></Link>
-        </div>
+      <div className="skill">
+       Skills
       </div>
+
+      <div className="main-skill">
+
       <div className="language-stack sub-container">
         <div className="left-lan">
           <p>Languages</p>
@@ -63,6 +61,7 @@ const SkillStack = () => {
           <img src={githubi} className="lan-icon" alt="" />
           <img src={figma} className="lan-icon" alt="" />
         </div>
+      </div>
       </div>
     </div>
   );

@@ -1,19 +1,21 @@
-import React from 'react'
+
 import './About.css'
-import { Link } from 'react-router-dom'
-import cross from '../assets/cross.png'
+
+
 import Aboutcard from './Aboutcard'
 
 const About = () => {
   return (
     <div className='about-page'>
-      <div className='about-toast'>
+      {/* <div className='about-toast'>
         <div className='toast'>
-            <div className='toast-circle'>!</div>
-            <p>About me</p>
-            <Link to="/"><img width="40px" className='cross' src={cross} alt="" /></Link>
+            
+           About me
+           
         </div>
-      </div>
+      </div> */}
+
+      <div className="about">About me</div>
 
       <div className="about-container">
         <div className="about-left">
